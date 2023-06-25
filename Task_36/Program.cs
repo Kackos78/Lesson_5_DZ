@@ -9,7 +9,7 @@ int[] MakeRndArr100(int quantity)
     Random rnd = new Random();
     for (int i = 0; i < arr.Length; i++)
     {
-        arr[i] = rnd.Next(1, 100);
+        arr[i] = rnd.Next(-100, 100);
     }
     return arr;
 
